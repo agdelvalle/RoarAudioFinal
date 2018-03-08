@@ -1,0 +1,146 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display|Raleway|Karma" rel="stylesheet">
+	<!-- fontawesome library -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	
+	<title>Roar Audio PH - Independent. Creative. Professional.</title>
+</head>
+
+<body>
+
+<div class="container-fluid">
+	<header>
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					    <span class="icon-bar"></span>
+					    <span class="icon-bar"></span>
+					    <span class="icon-bar"></span> 
+					</button>
+					<a class="navbar-brand" href="#"><img src=media/roar-logo.jpg id="logo-small">ROAR AUDIO</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+					    <li><a href="landing.html">Home</a></li>
+						<li><a href="services.html">About</a></li>
+						<li><a href="works.html">Our Works</a></li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav> <!-- END NAVBAR -->
+
+	    <div class="parallax">
+	    	<h1>CONTACT US</h1>
+		</div>
+	</header>
+
+	<article>
+		<div class="container-fluid">
+			<div class="row" id="formcontent">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 left">
+					<div id="map"></div><br>
+					<p>Our office is located at:<br>123 Avenue, Makati City 1109<br>Mondays to Saturdays, 8:00 AM to 5:00 PM</p>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 right">
+					<h1 class="wow fadeInUp">Got a great idea?</h1>
+					<h2 class="wow fadeInUp" data-wow-delay="1s">We'd love to hear from you!</h2>
+					<div class="form-group wow fadeInUp" data-wow-delay="2s">
+						<input type="name" class="form-control clientName" id="exampleFormControlInput1" placeholder="Name">
+					</div>
+					<div class="form-group wow fadeInUp" data-wow-delay="2s">
+						<input type="email" class="form-control" id="exampleFormControlInput3" placeholder="username@example.com">
+					</div>
+					<div class="form-group wow fadeInUp" data-wow-delay="2s">
+						<input type="subject" class="form-control" id="exampleFormControlInput4" placeholder="Subject">
+					</div>
+					<div class="form-group wow fadeInUp" data-wow-delay="2s">
+						<textarea class="form-control" rows="6" id="message" placeholder="Your message"></textarea>
+					</div>
+					<a href="#" id="submit">Submit!</a>
+				</div>
+			</div>
+		</div>
+	</article>
+
+
+	<footer>
+		
+		<div class="container-fluid" id="footer">
+			<div class="row">
+				<div class="col-lg-4">	
+				</div>
+				<div class="col-lg-4 contact">
+					<img src="media/transparenticon.png" class="wow fadeInUp">
+					<h4 class="wow fadeInUp" data-wow-delay="1s">ROAR AUDIO PH</h4>
+					<p class="wow fadeInDown" data-wow-delay="2s">123 Avenue, Makati City 1109</p>
+					<p class="wow fadeInUp" data-wow-delay="2s">123-4567 | email@domain.com</p>
+					<a href="https://www.facebook.com/roaraudioinc/" target="_blank"><i class="fa fa-facebook wow bounceIn" data-wow-delay="2s"></i></a>
+					<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter wow bounceIn" data-wow-delay="3s"></i></a>
+					<a href="https://instagram.com" target="_blank"><i class="fa fa-instagram wow bounceIn" data-wow-delay="4s"></i></a>
+				</div>
+				<div class="col-lg-4">
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+</div>
+
+
+<!-- SCRIPTS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--include all compiled plugins-->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- animation -->
+	<script src="css/wow.min_.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+	<!-- map -->
+	<script type="text/javascript">
+		function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var myCenter = new google.maps.LatLng(14.551212, 121.018675);
+    var mapOptions = {
+        center: myCenter,
+        zoom: 19
+    };
+
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+
+    var marker = new google.maps.Marker({
+  		position: myCenter,
+  		animation:google.maps.Animation.BOUNCE
+  	});
+
+	marker.setMap(map);
+}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi-ZTrYf0UE8HqzIPuP3FBuYzIxPmTj6k&callback=myMap"></script>
+	<!-- animation -->
+	<script src="css/wow.min_.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+	
+	
+
+</body>
