@@ -115,14 +115,14 @@ nav {
 	background-color: none;
 }
 
-.fa-angle-down {
+.fa-angle-bouble-down {
 	font-size: 45px;
 	text-align: left;
 	text-shadow: 2px 2px 3px #667184;
 
 }
 
-.fa-angle-down:hover {
+.fa-angle-double-down:hover {
 	text-decoration: none;
 	color: #808bf2;
 }
